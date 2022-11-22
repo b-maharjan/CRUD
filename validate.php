@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
     foreach($user as $user){
         if(($user['username'] == $username) &&
-        ($user['password'] == $password)) {
+        md5($user['password'] == $password)) {
             header("location: validate.php");
         } else{
             echo "<script language='JavaScript'>";
