@@ -1,3 +1,6 @@
+<?php
+include 'dbconn.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="css/style.css">
-	<title>Login Page</title>
+	<title>Employee Portal</title>
 </head>
 
 <body>

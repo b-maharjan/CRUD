@@ -5,7 +5,7 @@
 <body>
 <div class="topnav">
   <a class="active" href="#home">Dashboard</a>
-  <a href="chart.php">Employees</a>
+  <a href="insert.php">Employees</a>
   <a href="#timesheet">Timesheet</a>
   <a href="#roles">Roles</a>
   <div class="search-container">
